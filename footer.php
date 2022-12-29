@@ -1,9 +1,10 @@
 
 <footer>
+   
            area do roda pé do site 
-        </footer>
-   </div>
-   <?php wp_footer()?>
+</footer>
+</div>
+<?php wp_footer()?>
 </body>
 </html>
 

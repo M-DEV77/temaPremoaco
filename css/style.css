@@ -1,0 +1,80 @@
+/*
+Theme Name: Premoaço 2.0
+Theme URI: https://github.com/M-DEV77.
+Author: Marcelo Olimpio.
+Author URI: https://github.com/M-DEV77.
+Description: A WBSYS é uma empresa de criação de sites e sistemas que oferece soluções de qualidade e preços acessíveis para seus clientes.
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: https://premoaco.com.br/
+https://premoaco.com.br/, (C) 2022 Wbsys
+*/
+
+
+/*variáveis*/
+*hoot{
+  --corTexto1:  #ffffff;
+  --corTexto2:  #000000;
+}
+@font-face {
+    font-family: Questrial-Regular;
+    src: url(http://186.219.188.194/premoaco/wp-content/themes/temaPremoaco/fonts/Questrial-Regular/Questrial-Regular.ttf);
+}
+@font-face {
+    font-family: NunitoSans-Regular;
+    src: url(http://186.219.188.194/premoaco/wp-content/themes/temaPremoaco/fonts/NunitoSans/NunitoSans-Regular.ttf);
+}
+/*fonte estilo letra de mão*/
+@font-face {
+    font-family: Caramel-Regular;
+    src: url(http://186.219.188.194/premoaco/wp-content/themes/temaPremoaco/fonts/Caramel-Regular/Caramel-Regular.ttf);
+}
+body{
+   padding: 0;
+   border: 0;
+   margin: 0; 
+   box-sizing: border-box;
+   color:var(--corTexto2);
+   font-family: Questrial-Regular;
+}
+
+.container{
+    
+    height: 100vh;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    z-index: 3;
+    background-color: #8f8f8f;
+}
+main{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    background-color: aqua;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    z-index: 3;
+    background-color: blue;
+}
+
+
+/*----menu----------------------*/
+.menu-item li a {
+    text-decoration: none;
+}
+
+
+
+
+
+

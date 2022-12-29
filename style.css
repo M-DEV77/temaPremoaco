@@ -15,4 +15,9 @@ https://premoaco.com.br/, (C) 2022 Wbsys
 main{
     font-size: 2vw;
 }
+.menu-item a{
+    text-decoration: none;
+    color:aliceblue;
+    
+}
 
