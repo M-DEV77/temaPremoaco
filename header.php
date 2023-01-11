@@ -12,8 +12,5 @@ Author: Marcelo Olimpio.
 </head>
 <body <?php body_class()?> >
    <div class="container">
-        <header>
-         <?php wp_nav_menu(array('theme_location'=>'wp_premo_menu',
-         'depth'=> 2
-         ))?>
-        </header>
+  
+        

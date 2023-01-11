@@ -12,12 +12,59 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: https://premoaco.com.br/
 https://premoaco.com.br/, (C) 2022 Wbsys
 */
-main{
-    font-size: 2vw;
-}
-.menu-item a{
-    text-decoration: none;
-    color:aliceblue;
-    
-}
+
+
+/*variáveis*/
+:hoot {
+  /*paleta de cor 001 -----------*/
+    --cor1Texto1:   #BCAAA4;
+    --cor1Texto2:   #3E2723;
+    --cor1-1:       #BF360C;
+    --cor1-2:       #607D8B;
+    --cor1-3:       #EEEEEE;
+  }
+  @font-face {
+      font-family: Questrial-Regular;
+      src: url(http://186.219.188.194/premoaco/wp-content/themes/temaPremoaco/fonts/Questrial-Regular/Questrial-Regular.ttf);
+  }
+  @font-face {
+      font-family: NunitoSans-Regular;
+      src: url(http://186.219.188.194/premoaco/wp-content/themes/temaPremoaco/fonts/NunitoSans/NunitoSans-Regular.ttf);
+  }
+  /*fonte estilo letra de mão*/
+  @font-face {
+      font-family: Caramel-Regular;
+      src: url(http://186.219.188.194/premoaco/wp-content/themes/temaPremoaco/fonts/Caramel-Regular/Caramel-Regular.ttf);
+  }
+
+  body{
+     padding: 0;
+     border: 0;
+     margin: 0; 
+     box-sizing: border-box;
+     color:var(--corTexto2);
+     font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  /*esta seção cuida do slider do tema*/
+  
+ /*esta seção cuida do menu principal na parte superior do tema */
+
+ /*esta seção cuida do corpo do tema*/
+ main{
+  height: 80vh;
+ }
+ footer{
+  height: 10vh;
+  background-color: #3E2723;
+ }
+ /*esta seção cuida do corpo do tema*/
+
+  
+  
+  
 
